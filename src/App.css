@@ -2,6 +2,8 @@
 
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -27,6 +29,19 @@ body{
 
 }
 
+
+.nums-container{
+    width: 75%;
+}
+
+button.ac{
+    margin-right: 50%;
+}
+
+.ops-container{
+    width: 25%;
+}
+
 #display{
     color: white;
     width: 100%;
@@ -43,6 +58,19 @@ button{
     height: 50px;
     width: 50px;
     margin: 5px;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:focus{
+    outline: none;
 }
 
 button.orange{
@@ -57,4 +85,9 @@ button.dark-grey{
 
 button.light-grey{
     background-color: #a5a5a5;
+}
+
+button.big-v{
+    border-radius: 50px;
+    width: 110px;
 }
