@@ -20,17 +20,17 @@ body{
     min-height: 100vh;
     background: black;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 10px;
 }
 
 .top{
-    height: 50px;
+    height: 180px;
     padding: 0px 20px;
 }
 
 .display{
-    font-size: 80px;
+    font-size: 30px;
     margin-bottom: 20px;
     font-weight: 300;
     text-align: right;
@@ -44,9 +44,9 @@ body{
 
 }
 
-.bottom{
+/* .bottom{
 
-}
+} */
 
 
 
