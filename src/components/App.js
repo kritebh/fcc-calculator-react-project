@@ -191,13 +191,13 @@ function App() {
         {
           buttons.map(b => {
             if (b === "AC" || b === "±" || b === "%") {
-              return <Button content={b} type="function" onButtonClick={handleButtonClick}></Button>
+              return <Button content={b} type="function" onButtonClick={handleButtonClick}  key={b}></Button>
             }
             else if (b === "÷" || b === "x" || b === "-" || b === "+" || b === "=") {
-              return <Button content={b} type="operator" onButtonClick={handleButtonClick}></Button>
+              return <Button content={b} type="operator" onButtonClick={handleButtonClick} key={b}></Button>
             }
             return (
-              <Button content={b} onButtonClick={handleButtonClick}></Button>
+              <Button content={b} onButtonClick={handleButtonClick} key={b}></Button>
             )
           })
         }

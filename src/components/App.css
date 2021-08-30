@@ -14,7 +14,8 @@ body{
 
 @media (min-width:700px) {
     body{
-        width: 25vw;
+        width: 20vw;
+        height: 100vh;
     }
 }
 
@@ -26,9 +27,22 @@ body{
     padding: 10px;
 }
 
+@media (max-width:700px) {
+    .App{
+        height: 100vh;
+        border-radius: 0px;
+    }
+}
+
 .top{
-    height: 180px;
+    height: 200px;
     padding: 0px 20px;
+}
+
+@media (max-width:700px) {
+    .top{
+        height: 250px;
+    }
 }
 
 .display{
